@@ -1,4 +1,4 @@
-# Mask R-CNN Analysis report on Model trained with COCO dataset
+# Mask R-CNN Performance Evaluation with Model trained on COCO dataset
 
 “COCO: Common Objects in Context”1 is a large-scale dataset that contains total of 120,000 images provided with
 pixel annotations, bounding boxes, and classs labels for each instance of 80 different object classes. Since annotating
