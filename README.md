@@ -2,7 +2,7 @@
 
 This project aims to provide the results in COCO dataset for different object detection models styles like Masked R-CNN, YOLO  & SSD.
 
-There will be the explaation and the abstract for the project here.
+There will be the explanation and the abstract for the project here.
 
 
 
