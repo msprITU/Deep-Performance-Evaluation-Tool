@@ -1,6 +1,6 @@
 ## Instructions to use the evaluation routine on other object detection models:
 
-This project aims to provide the results in COCO dataset for different object detection models styles like Masked RCNN, YOLO  & SSD.
+This project aims to provide the results in COCO dataset for different object detection models styles like Masked R-CNN, YOLO  & SSD.
 
 There will be the explaation and the abstract for the project here.
 
