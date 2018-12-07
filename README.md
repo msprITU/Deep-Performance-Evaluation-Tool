@@ -38,5 +38,5 @@ After generating the input files, simply open *Evaluate_Models.ipynb* and follow
 
 ### Getting a Result:
 
-You can directly access the outout video of our results [here]
+You can directly access the output video of our results [here](output.avi)
 
