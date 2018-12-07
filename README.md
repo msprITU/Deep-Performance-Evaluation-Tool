@@ -8,6 +8,16 @@ When Mask-RCNN makes a prediction, how reliable are the results? When the model 
 
 A notebook with the demo for Mask-RCNN can be found in [demo/Evaluate_Models.ipynb](demo/Evaluate_Models.ipynb).
 
+This also applies for YOLO system. *** 
+
+A notebook with the demo for YOLO can be found in [demo/Evaluate_Models2.ipynb](demo/Evaluate_Models.ipynb).
+
+This also applies for SSD object detection model style. *** 
+
+A notebook with the demo for SSD can be found in [demo/Evaluate_Models3.ipynb](demo/Evaluate_Models.ipynb).
+
+
+
 
 You can easily evaluate your different object detection models on any dataset with Evaluate_Models notebook. To do this, predictions of your model and groundtruth information must be saved separately in .txt files and match the below format:
 
