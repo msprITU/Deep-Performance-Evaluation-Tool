@@ -10,7 +10,7 @@ When Mask-RCNN makes a prediction, how reliable are the results? When the model 
 
 A notebook with the demo for Mask-RCNN can be found in [demo/Evaluate_Models.ipynb](demo/Evaluate_Models.ipynb).
 
-## Using YOLO Object Detection System
+## Object Detection by YOLO
 
 You only look once (YOLO) is a system for detecting objects on the Pascal VOC 2012 dataset. It can detect the 20 Pascal object classes:
 
