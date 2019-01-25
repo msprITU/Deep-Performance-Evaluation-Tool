@@ -27,7 +27,9 @@ We use a totally different approach. We apply a single neural network to the ful
 
 This also applies for YOLO system. *** 
 
-A notebook with the demo for YOLO can be found in [demo/Evaluate_Models2.ipynb](demo/Evaluate_Models.ipynb).
+A notebook that includes YOLO results can be found at [demo/Evaluate_Models2.ipynb](demo/Evaluate_Models.ipynb).
+
+<!--- A notebook with the demo for YOLO can be found in [demo/Evaluate_Models2.ipynb](demo/Evaluate_Models.ipynb). --->
 
 ## Using SSD Object Detection System
 
