@@ -50,13 +50,13 @@ python3 CocoAnnotations.py
 
 Python code will generate the following files. I've added descriptions of the files.
 
-* [trainGT.txt](YOLO/trainGt.txt) : Inside this file there are training image Id's, corresponding bounding boxes with class level information.
+* [trainGT.txt](YOLO/Files/trainGt.txt) : Inside this file there are training image Id's, corresponding bounding boxes with class level information.
 
-* [valGT.txt](YOLO/valGt.txt) : Inside this file there are validaiton image Id's, corresponding bounding boxes with class level information.
+* [valGT.txt](YOLO/Files/valGt.txt) : Inside this file there are validaiton image Id's, corresponding bounding boxes with class level information.
 
-* [trainImageIdForYolo.txt](YOLO/trainImageIdForYolo.txt) : This file contains the name list of the COCO training dataset image.
+* [trainImageIdForYolo.txt](YOLO/Files/trainImageIdForYolo.txt) : This file contains the name list of the COCO training dataset image.
 
-* [valImageIdForYolo.txt](YOLO/valImageIdForYolo.txt) : This file contains the name list of the COCO validation dataset image.
+* [valImageIdForYolo.txt](YOLO/Files/valImageIdForYolo.txt) : This file contains the name list of the COCO validation dataset image.
 
 The links to these text files are set as an example in the YOLO directory.
 
@@ -70,9 +70,9 @@ python3 YoloPrediction.py
 
 This code generate the following files. I've added descriptions of the files.
 
-* [predstrain.txt](YOLO/predstrain.txt) : This file contains the predictions made by YOLO for training images.
+* [predstrain.txt](YOLO/Files/predstrain.txt) : This file contains the predictions made by YOLO for training images.
 
-* [predsval.txt](YOLO/predsVal.txt) : This file contains the predictions made by YOLO for validation images.
+* [predsval.txt](YOLO/Files/predsVal.txt) : This file contains the predictions made by YOLO for validation images.
 
 The links are also given here, to set an example; can be found in the YOLO directory.
 
