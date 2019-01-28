@@ -32,7 +32,7 @@ and all environments will be installed automatically.
 
 We  use ipython notebook to look for performance of YOLO. To do this first you need to install Jupyter Notebook from terminal as follows
 ```
-pip3 install jupyter (madde halinde olabilir)
+pip3 install jupyter
 ```
 and it will be installed automatically.
 
