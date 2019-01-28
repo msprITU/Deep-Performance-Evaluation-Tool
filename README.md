@@ -39,7 +39,7 @@ and it will be installed automatically.
 
 ### Adjusting the Ground Truth and Image Id Files
 
-For arranging this files, I write [CocoAnnoations.py](YOLO/Setup/CocoAnnoations.py) script to generate necessary files. (The file can be downloaded with the link given.) However, before using this code, you must set annotation files path and you must enter the annotation file name (train or val) by changing target variable.
+For arranging this files, I write [CocoAnnotations.py](YOLO/Setup/CocoAnnotations.py) script to generate necessary files. (The file can be downloaded with the link given. ) However, before using this code, you must set annotation files path and you must enter the annotation file name (train or val) by changing target variable.
 You have to copy the training and validation info in json format to annotion directory. Currently we use COCO instances_train2014.json and instances_val2014.json file which can be downloaded from [here.](http://images.cocodataset.org/annotations/annotations_trainval2014.zip)
 
 After adjusting python file you can run this script from terminal by writing
@@ -62,7 +62,7 @@ The links to these text files are set as an example in the YOLO directory.
 
 ### Running YOLO for Getting Predictions
 
-You need to run YoloPrediction.py to generate the prediction files (use image id txt files (trainImageIdForYolo.txt or valImageIdForYolo.txt) which are created in the previous step, don't forget to change paths to access to YOLO config file and YOLO weight file). After setting these variables you can run the code from terminal by writing
+You need to run [YoloPrediction.py](YOLO/Setup/YoloPrediction.py) to generate the prediction files (use image id txt files (trainImageIdForYolo.txt or valImageIdForYolo.txt) which are created in the previous step, don't forget to change paths to access to YOLO config file and YOLO weight file). After setting these variables you can run the code from terminal by writing
 
 ```
 python3 YoloPrediction.py
