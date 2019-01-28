@@ -23,7 +23,7 @@ The steps of making the project can be divided into 3, which are:
 
 ### Installing Neccessary Environments
 
-For using codes in this file, you must install neccessary libraries. For installing them, you can use the command in terminal down below.
+For using codes in this file, you must install neccessary libraries. First of all download the [requirements.txt](YOLO/Setup/requirements.txt) file. After that; for installiation of the libraries, you can use the command in terminal down below.
 
 ```
 pip3 install -r requirements.txt
@@ -39,8 +39,8 @@ and it will be installed automatically.
 
 ### Adjusting the Ground Truth and Image Id Files
 
-For arranging this files, I write CocoAnnoations.py script to generate necessary files. Before using this code, you must set annotation files path and you must enter the annotation file name (train or val) by changing target variable.
-You have to copy the training and validation info in json format to annotion directory. Currently we use COCO instances_train2014.json and instances_val2014.json file downloaded from [here.](http://images.cocodataset.org/annotations/annotations_trainval2014.zip)
+For arranging this files, I write [CocoAnnoations.py](YOLO/Setup/CocoAnnoations.py) script to generate necessary files. (The file can be downloaded with the link given.) However, before using this code, you must set annotation files path and you must enter the annotation file name (train or val) by changing target variable.
+You have to copy the training and validation info in json format to annotion directory. Currently we use COCO instances_train2014.json and instances_val2014.json file which can be downloaded from [here.](http://images.cocodataset.org/annotations/annotations_trainval2014.zip)
 
 After adjusting python file you can run this script from terminal by writing
 
@@ -50,9 +50,9 @@ python3 CocoAnnotations.py
 
 Python code will generate the following files. I've added descriptions of the files.
 
-* [trainGT.txt](YOLO/trainGt.txt) : Inside this file there are training image Id's, corresponding bounding boxes with class level information
+* [trainGT.txt](YOLO/trainGt.txt) : Inside this file there are training image Id's, corresponding bounding boxes with class level information.
 
-* [valGT.txt](YOLO/valGt.txt) : Inside this file there are validaiton image Id's, corresponding bounding boxes with class level information
+* [valGT.txt](YOLO/valGt.txt) : Inside this file there are validaiton image Id's, corresponding bounding boxes with class level information.
 
 * [trainImageIdForYolo.txt](YOLO/trainImageIdForYolo.txt) : This file contains the name list of the COCO training dataset image.
 
