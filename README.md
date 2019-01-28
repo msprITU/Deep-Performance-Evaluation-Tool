@@ -104,7 +104,7 @@ All prior detection systems repurpose classifiers or localizers to perform detec
 
 <!--- A notebook with the demo for YOLO can be found in [demo/Evaluate_Models2.ipynb](demo/Evaluate_Models.ipynb). --->
 
-## Using SSD Object Detection System
+## Object Detection by SSD
 
 This also applies for SSD object detection model style. *** 
 
