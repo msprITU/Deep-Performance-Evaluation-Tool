@@ -50,13 +50,15 @@ python3 CocoAnnotations.py
 
 Python code will generate the following files. I've added descriptions of the files.
 
-trainGT.txt : Inside this file there are training image Id's, corresponding bounding boxes with class level information
+* [trainGT.txt](YOLO/trainGt.txt) : Inside this file there are training image Id's, corresponding bounding boxes with class level information
 
-valGT.txt : Inside this file there are validaiton image Id's, corresponding bounding boxes with class level information
+* [valGT.txt](YOLO/valGt.txt) : Inside this file there are validaiton image Id's, corresponding bounding boxes with class level information
 
-trainImageIdForYolo.txt : This file contains the name list of the COCO training dataset image.
+* [trainImageIdForYolo.txt](YOLO/trainImageIdForYolo.txt) : This file contains the name list of the COCO training dataset image.
 
-valImageIdForYolo.txt : This file contains the name list of the COCO validation dataset image.
+* [valImageIdForYolo.txt](YOLO/valImageIdForYolo.txt) : This file contains the name list of the COCO validation dataset image.
+
+The links to these text files are set as an example in the YOLO directory.
 
 ### Running YOLO for Getting Predictions
 
@@ -68,18 +70,23 @@ python3 YoloPrediction.py
 
 This code generate the following files. I've added descriptions of the files.
 
-predstrain.txt : This file contains the predictions made by YOLO for training images.
+* [predstrain.txt](YOLO/predstrain.txt) : This file contains the predictions made by YOLO for training images.
 
-predsval.txt : This file contains the predictions made by YOLO for validation images.
+* [predsval.txt](YOLO/predsVal.txt) : This file contains the predictions made by YOLO for validation images.
+
+The links are also given here, to set an example; can be found in the YOLO directory.
 
 ### Running Evaluation Tool For Obtaining YOLO Performance
 
 Before running evaluation tool, we need to make following arrangements.
 
-- Copy trainGT.txt file to trainlogs directory and change its name to gt.txt
-- Copy predstrain.txt file to trainlogs directory and change its name to preds.txt
-- Copy valGT.txt file to vallogs directory and change its name to gt.txt
-- Copy predsval.txt file to vallogs directory and change its name to preds.txt
+* Copy trainGT.txt file to trainlogs directory and change its name to gt.txt
+
+* Copy predstrain.txt file to trainlogs directory and change its name to preds.txt
+
+* Copy valGT.txt file to vallogs directory and change its name to gt.txt
+
+* Copy predsval.txt file to vallogs directory and change its name to preds.txt
 
 Switch to directory of Evaluate_Models.ipynb file and write terminal to jupyter lab. Run Evaluate_Models.ipynb to generate performance results.
 
