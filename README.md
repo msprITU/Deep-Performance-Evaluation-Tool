@@ -88,7 +88,7 @@ Before running evaluation tool, we need to make following arrangements.
 
 * Copy predsval.txt file to vallogs directory and change its name to preds.txt
 
-Switch to directory of Evaluate_Models.ipynb file and write terminal to jupyter lab. Run Evaluate_Models.ipynb to generate performance results.
+Switch to directory of [Evaluate_Models.ipynb](YOLO/Evaluation/Evaluate_Models.ipynb) file and write terminal to jupyter lab. Run Evaluate_Models.ipynb to generate performance results.
 
 
 
